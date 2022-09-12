@@ -1,0 +1,1 @@
+/Users/noumansyed/.fzf/shell/key-bindings.fish
