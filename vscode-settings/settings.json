@@ -1,0 +1,67 @@
+{
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "k"],
+        "after": ["<esc>"]
+      }
+    ],
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+    "[cpp]": {
+      "editor.tabSize": 2
+    },
+    "[python]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dockerfile]": {
+      "editor.tabSize": 2,
+      "editor.quickSuggestions": {
+        "strings": true
+      }
+    },
+    "[javascript]": {
+      "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.tabSize": 2
+    },
+    "[graphql]": {
+      "editor.tabSize": 2
+    },
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.editor.labelFormat": "short",
+    "terminal.integrated.rendererType": "dom",
+    "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "workbench.editor.showTabs": true,
+    "breadcrumbs.enabled": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.layoutControl.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.formatting.provider": "black",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "vim.smartRelativeLine": true,
+    "window.zoomLevel": 2,
+    "python.analysis.extraPaths": [
+      "./Library/Python/3.8/lib/python/site-packages"
+    ],
+    "editor.mouseWheelZoom": true
+  }
