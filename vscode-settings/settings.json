@@ -3,7 +3,23 @@
       {
         "before": ["j", "k"],
         "after": ["<esc>"]
-      }
+      },
+      {
+        "before": ["k", "k"],
+        "after": ["<esc>"]
+      },
+      {
+        "before": ["j", "j"],
+        "after": ["<esc>"]
+      },
+      {
+        "before": ["k", "j"],
+        "after": ["<esc>"]
+      },
+      {
+        "before": ["g", "c"],
+        "after": ["<C-/>"]
+      },
     ],
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 14,
