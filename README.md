@@ -1,1 +1,1 @@
-# My config files for vscode, neovim and fish shell
+# My config files for neovim and fish shell
